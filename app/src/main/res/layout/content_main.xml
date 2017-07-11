@@ -17,5 +17,24 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"/>
+            android:text="Hello World!" android:id="@+id/textView2"/>
+    <RadioButton
+            android:text="RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_below="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2" android:layout_toEndOf="@+id/textView2"
+            android:layout_marginLeft="26dp" android:layout_marginStart="26dp" android:layout_marginTop="90dp"
+            android:id="@+id/radioButton"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/radioButton" android:layout_alignEnd="@+id/radioButton"
+            android:layout_marginBottom="130dp" android:id="@+id/button"/>
+    <RadioButton
+            android:text="RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_below="@+id/radioButton"
+            android:layout_alignRight="@+id/radioButton" android:layout_alignEnd="@+id/radioButton"
+            android:layout_marginTop="10dp" android:id="@+id/radioButton2"/>
 </RelativeLayout>
